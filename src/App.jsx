@@ -1,5 +1,7 @@
 import React from 'react';
 import HelloWorld from './HelloWorld';
+import './styles.css';
+import Card from './card.jsx';
 
 function App() {
   return (
@@ -8,12 +10,6 @@ function App() {
     </div>
   );
 }
-
-export default App;
-
-import React from 'react';
-import './styles.css';
-import Card from './card.jsx';
 
 function App() {
   return (
